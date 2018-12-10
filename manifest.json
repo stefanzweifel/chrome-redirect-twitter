@@ -1,0 +1,21 @@
+{
+    "name": "twitter.com to mobile.twitter.com redirect",
+    "version": "1.0.0",
+    "description": "Redirect you to mobile.twitter.com if you've opend a link to the old twitter.com",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://*.twitter.com/"
+    ],
+    "icons": {
+      "16": "img/16.png",
+      "32": "img/32.png",
+      "48": "img/48.png",
+      "128": "img/128.png"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "manifest_version": 2
+}
