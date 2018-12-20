@@ -1,7 +1,7 @@
 {
-    "name": "twitter.com to mobile.twitter.com redirect",
-    "version": "1.0.0",
-    "description": "Redirect you to mobile.twitter.com if you've opend a link to the old twitter.com",
+    "name": "Redirect twitter.com to mobile.twitter.com",
+    "version": "1.1.0",
+    "description": "Always redirects you to the new, modern mobile.twitter.com if you've opened a link to the old twitter.com.",
     "permissions": [
         "webRequest",
         "webRequestBlocking",
